@@ -1,0 +1,10 @@
+name: Quotes
+form: $/jointoit/getquote/models/quotes/fields.yaml
+modelClass: Jointoit\GetQuote\Models\Quotes
+defaultRedirect: jointoit/getquote/quotes
+create:
+    redirect: 'jointoit/getquote/quotes/update/:id'
+    redirectClose: jointoit/getquote/quotes
+update:
+    redirect: jointoit/getquote/quotes
+    redirectClose: jointoit/getquote/quotes

@@ -1,0 +1,44 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+    created_at:
+        label: 'Send leads at'
+        type: datetime
+        format: 'j M Y H:i:s'
+    first_name:
+        label: 'First Name'
+        type: text
+        searchable: true
+    last_name:
+        label: 'Last Name'
+        type: text
+        searchable: true
+    email:
+        label: 'E-mail Adress'
+        type: text
+        searchable: true
+    mobile_phone:
+        label: 'Mobile Phone'
+        type: text
+        searchable: true
+    home_phone:
+        label: 'Home Phone'
+        type: text
+        searchable: true
+    zip_code:
+        label: 'Zip Code'
+        type: text
+        searchable: true
+    needs:
+        label: 'More needs'
+        span: auto
+        type: text
+    options:
+        label: Options
+        type: text
+        searchable: true
+    updated_at:
+        label: 'Update leads at'
+        type: datetime

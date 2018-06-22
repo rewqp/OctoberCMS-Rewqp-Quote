@@ -1,0 +1,11 @@
+plugin:
+    name: 'rewqp.getquote::lang.plugin.name'
+    description: 'rewqp.getquote::lang.plugin.description'
+    author: rewqp
+    icon: oc-icon-bar-chart-o
+    homepage: ''
+navigation:
+    Quotes:
+        label: 'Website leads'
+        url: rewqp/getquote/quotes
+        icon: icon-bar-chart-o

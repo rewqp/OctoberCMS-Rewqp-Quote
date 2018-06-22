@@ -1,10 +1,10 @@
-<?php namespace Jointoit\GetQuote;
+<?php namespace Rewqp\GetQuote;
 
 use Backend;
 use System\Classes\PluginBase;
 
 /**
- * JoinToIT Plugin Information File
+ * Rewqp Plugin Information File
  */
 class Plugin extends PluginBase
 {
@@ -17,9 +17,9 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'jointoit.getquote::lang.plugin.name',
-            'description' => 'jointoit.getquote::lang.plugin.description',
-            'author'      => 'JoinToIT',
+            'name'        => 'rewqp.getquote::lang.plugin.name',
+            'description' => 'rewqp.getquote::lang.plugin.description',
+            'author'      => 'rewqp',
             'icon'        => 'icon-bar-chart-o'
         ];
     }
@@ -32,7 +32,7 @@ class Plugin extends PluginBase
     // public function registerComponents()
     // {
     //     return [
-    //         'JoinToIT\GetQuote\Components\Quotes' => 'Quotes',
+    //         'rewqp\GetQuote\Components\Quotes' => 'Quotes',
     //     ];
     // }
 
@@ -46,7 +46,7 @@ class Plugin extends PluginBase
         return []; // Remove this line to activate
 
         return [
-            'jointoit.getquote.some_permission' => [
+            'rewqp.getquote.some_permission' => [
                 'tab' => 'Quotes',
                 'label' => 'Some permission'
             ],

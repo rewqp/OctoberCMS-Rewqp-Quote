@@ -1,5 +1,5 @@
-list: $/jointoit/getquote/models/quotes/columns.yaml
-modelClass: Jointoit\GetQuote\Models\Quotes
+list: $/rewqp/getquote/models/quotes/columns.yaml
+modelClass: Rewqp\GetQuote\Models\Quotes
 title: Quotes
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
@@ -9,4 +9,4 @@ toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
-recordUrl: 'jointoit/getquote/quotes/update/:id'
+recordUrl: 'rewqp/getquote/quotes/update/:id'

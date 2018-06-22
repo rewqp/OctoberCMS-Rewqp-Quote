@@ -1,13 +1,13 @@
-<?php namespace Jointoit\GetQuote\Updates;
+<?php namespace Rewqp\GetQuote\Updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableCreateJointoitGetquote extends Migration
+class BuilderTableCreateRewqpGetquote extends Migration
 {
     public function up()
     {
-        Schema::create('jointoit_getquote_', function($table)
+        Schema::create('rewqp_getquote_', function($table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
@@ -23,6 +23,6 @@ class BuilderTableCreateJointoitGetquote extends Migration
     
     public function down()
     {
-        Schema::dropIfExists('jointoit_getquote_');
+        Schema::dropIfExists('rewqp_getquote_');
     }
 }

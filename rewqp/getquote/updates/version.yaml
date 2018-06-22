@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.6:
+    - 'Created table rewqp_getquote_'
+    - builder_table_create_rewqp_getquote_.php
+1.0.7:
+    - 'Updated table rewqp_getquote_'
+    - builder_table_update_rewqp_getquote_.php
+1.0.8:
+    - 'Updated table rewqp_getquote_'
+    - builder_table_update_rewqp_getquote__2.php
+1.0.9:
+    - 'Updated table rewqp_getquote_'
+    - builder_table_update_rewqp_getquote__3.php

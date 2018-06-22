@@ -1,4 +1,4 @@
-<?php namespace Jointoit\GetQuote\Models;
+<?php namespace Rewqp\GetQuote\Models;
 
 use Model;
 
@@ -35,5 +35,5 @@ class Quotes extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'jointoit_getquote_';
+    public $table = 'rewqp_getquote_';
 }

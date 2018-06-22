@@ -1,4 +1,4 @@
-<?php namespace Jointoit\GetQuote\Controllers;
+<?php namespace Rewqp\GetQuote\Controllers;
 
 use Backend\Classes\Controller;
 use BackendMenu;
@@ -14,7 +14,7 @@ class Quotes extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('Jointoit.GetQuote', 'Quotes');
+        BackendMenu::setContext('Rewqp.GetQuote', 'Quotes');
     }
 
 }

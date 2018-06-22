@@ -1,0 +1,10 @@
+name: Quotes
+form: $/rewqp/getquote/models/quotes/fields.yaml
+modelClass: Rewqp\GetQuote\Models\Quotes
+defaultRedirect: rewqp/getquote/quotes
+create:
+    redirect: 'rewqp/getquote/quotes/update/:id'
+    redirectClose: rewqp/getquote/quotes
+update:
+    redirect: rewqp/getquote/quotes
+    redirectClose: rewqp/getquote/quotes
